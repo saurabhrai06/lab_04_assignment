@@ -7,6 +7,7 @@ class EmployeeTable:
             {"Employee ID": "171E20", "Name": "Tejas", "Age": 30, "Salary (PM)": 55000},
             {"Employee ID": "171G30", "Name": "Ajay", "Age": 45, "Salary (PM)": 44000},
         ]
+# data
 
     def search_by_age(self, age):
         result = [employee for employee in self.data if employee["Age"] == age]
